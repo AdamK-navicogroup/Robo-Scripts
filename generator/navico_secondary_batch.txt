@@ -1,0 +1,27 @@
+Name: navico_secondary_batch_script
+
+REPLACE UNDER HERE
+      {
+        "eventType": "ENTER_TEXT",
+        "replacementText": "River123!",
+        "elementDescriptors": [
+          {
+            "xpath": "//input[@placeholder='Password']"
+          }
+        ]
+      },
+WITH UNDER HERE
+        {
+          "eventType": "TWO_POINT_GESTURE",
+          "coordinates": "(45%,45%)->(10%,15%),(45%,45%)->(65%,60%)"
+        },
+        {
+            "eventType": "ENTER_TEXT",
+            "replacementText": "River123!",
+            "elementDescriptors": [
+              {
+                "xpath": "//input[@placeholder='Password']"
+              }
+            ]
+        },
+STOP

@@ -1,0 +1,100 @@
+[
+    {
+        "id": 2902,
+        "description": "Post Login Script Lighting",
+        "contextDescriptor": {
+            "condition": "element_present",
+            "visionText": "All Systems"
+        },
+        "actions": [
+            {
+                "eventType" : "DELAYED_MESSAGE_POSTED",
+                "delayTime" : 3000
+            },
+            {
+                "eventType": "VIEW_CLICKED",
+                "visionText": "All Systems"
+            },
+            {
+                "eventType" : "DELAYED_MESSAGE_POSTED",
+                "delayTime" : 2000
+            },
+            {
+                "eventType": "VIEW_CLICKED",
+                "visionText": "Lighting"
+            },
+            {
+                "eventType" : "DELAYED_MESSAGE_POSTED",
+                "delayTime" : 2000
+            }
+        ]
+    },
+    {
+        "id": 2903,
+        "description": "Lighting Switch - Off",
+        "contextDescriptor": {
+            "condition": "element_present",
+            "visionText": "Off"
+        },
+        "actions": [
+            {
+                "eventType": "POINT_TAP",
+                "pointTapXPercent": 50,
+                "pointTapYPercent": 30
+            },
+            {
+                "eventType" : "DELAYED_MESSAGE_POSTED",
+                "delayTime" : 4000
+            },
+            {
+                "eventType": "PRESSED_BACK"
+            },
+            {
+                "eventType" : "DELAYED_MESSAGE_POSTED",
+                "delayTime" : 3000
+            },
+            {
+                "eventType": "VIEW_CLICKED",
+                "visionText": "Lighting"
+            },
+            {
+                "eventType" : "DELAYED_MESSAGE_POSTED",
+                "delayTime" : 2000
+            }
+        ]
+    },
+    {
+        "id": 2904,
+        "description": "Lighting Switch - On",
+        "contextDescriptor": {
+            "condition": "element_present",
+            "visionText": "On"
+        },
+        "actions": [
+            {
+                "eventType": "POINT_TAP",
+                "pointTapXPercent": 50,
+                "pointTapYPercent": 30
+            },
+            {
+                "eventType" : "DELAYED_MESSAGE_POSTED",
+                "delayTime" : 4000
+            },
+            {
+                "eventType": "PRESSED_BACK"
+            },
+            {
+                "eventType" : "DELAYED_MESSAGE_POSTED",
+                "delayTime" : 3000
+            },
+            {
+                "eventType": "VIEW_CLICKED",
+                "visionText": "Lighting"
+            },
+            {
+                "eventType" : "DELAYED_MESSAGE_POSTED",
+                "delayTime" : 2000
+            }
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "scripts" : [
+        "login",
+        "single_light_switch_and_back"
+    ],
+    "arguments" : {
+        "oem": "navico",
+        "mold": [
+            "primary_batch",
+            "secondary_batch"
+        ]
+    }
+}

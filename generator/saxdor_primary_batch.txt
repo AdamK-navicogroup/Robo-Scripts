@@ -1,0 +1,57 @@
+Name: saxdor_primary_batch_script
+
+REPLACE UNDER HERE
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "replacementText": "europaqa22+tb275core@gmail.com",
+        "elementDescriptors": [
+          {
+            "xpath": "//input[@placeholder='Email Address']"
+          }
+        ]
+      },
+WITH UNDER HERE
+        {
+          "eventType": "TWO_POINT_GESTURE",
+          "coordinates": "(50%,38%)->(45%,25%),(50%,38%)->(55%,50%)"
+        },
+        {
+            "eventType": "VIEW_TEXT_CHANGED",
+            "replacementText": "europaqa22+tb275core@gmail.com",
+            "elementDescriptors": [
+            {
+                "xpath": "//input[@placeholder='Email Address']"
+            }
+            ]
+        },
+        {
+          "eventType": "TWO_POINT_GESTURE",
+          "coordinates": "(45%,25%)->(50%,38%),(55%,50%)->(50%,38%)"
+        },
+STOP
+
+REPLACE UNDER HERE
+      {
+        "eventType": "ENTER_TEXT",
+        "replacementText": "River123!",
+        "elementDescriptors": [
+          {
+            "xpath": "//input[@placeholder='Password']"
+          }
+        ]
+      },
+WITH UNDER HERE
+        {
+          "eventType": "TWO_POINT_GESTURE",
+          "coordinates": "(35%,35%)->(10%,15%),(35%,35%)->(60%,55%)"
+        },
+        {
+            "eventType": "ENTER_TEXT",
+            "replacementText": "River123!",
+            "elementDescriptors": [
+              {
+                "xpath": "//input[@placeholder='Password']"
+              }
+            ]
+        },
+STOP

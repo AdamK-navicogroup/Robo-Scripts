@@ -1,0 +1,168 @@
+[
+  {
+    "id": 2901,
+    "description": "Login Script",
+    "contextDescriptor": {
+      "condition": "element_present",
+      "visionText": "Welcome"
+    },
+    "actions": [
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 10000
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "visionText": "Continue with Email"
+      },
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 3000
+      },
+      {
+        "eventType": "TWO_POINT_GESTURE",
+        "coordinates": "(50%,38%)->(45%,25%),(50%,38%)->(55%,50%)"
+      },
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "replacementText": "europaqa22+tb275core@gmail.com",
+        "elementDescriptors": [
+          {
+            "xpath": "//input[@placeholder='Email Address']"
+          }
+        ]
+      },
+      {
+        "eventType": "TWO_POINT_GESTURE",
+        "coordinates": "(45%,25%)->(50%,38%),(55%,50%)->(50%,38%)"
+      },
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 2000
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "visionText": "Next"
+      },
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 8000
+      },
+      {
+        "eventType": "TWO_POINT_GESTURE",
+        "coordinates": "(35%,35%)->(10%,15%),(35%,35%)->(60%,55%)"
+      },
+      {
+        "eventType": "ENTER_TEXT",
+        "replacementText": "River123!",
+        "elementDescriptors": [
+          {
+            "xpath": "//input[@placeholder='Password']"
+          }
+        ]
+      },
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 5000
+      }
+    ]
+  },
+  {
+    "id": 2902,
+    "description": "Post Login Script Lighting",
+    "contextDescriptor": {
+      "condition": "element_present",
+      "visionText": "All Systems"
+    },
+    "actions": [
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 3000
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "visionText": "All Systems"
+      },
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 2000
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "visionText": "Lighting"
+      },
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 2000
+      }
+    ]
+  },
+  {
+    "id": 2903,
+    "description": "Lighting Switch - Off",
+    "contextDescriptor": {
+      "condition": "element_present",
+      "visionText": "Off"
+    },
+    "actions": [
+      {
+        "eventType": "POINT_TAP",
+        "pointTapXPercent": 50,
+        "pointTapYPercent": 30
+      },
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 4000
+      },
+      {
+        "eventType": "PRESSED_BACK"
+      },
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 3000
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "visionText": "Lighting"
+      },
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 2000
+      }
+    ]
+  },
+  {
+    "id": 2904,
+    "description": "Lighting Switch - On",
+    "contextDescriptor": {
+      "condition": "element_present",
+      "visionText": "On"
+    },
+    "actions": [
+      {
+        "eventType": "POINT_TAP",
+        "pointTapXPercent": 50,
+        "pointTapYPercent": 30
+      },
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 4000
+      },
+      {
+        "eventType": "PRESSED_BACK"
+      },
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 3000
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "visionText": "Lighting"
+      },
+      {
+        "eventType": "DELAYED_MESSAGE_POSTED",
+        "delayTime": 2000
+      }
+    ]
+  }
+]

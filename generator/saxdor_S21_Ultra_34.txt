@@ -1,0 +1,27 @@
+Name: saxdor_S21_Ultra_34_script
+
+REPLACE UNDER HERE
+      {
+        "eventType": "ENTER_TEXT",
+        "replacementText": "River123!",
+        "elementDescriptors": [
+          {
+            "xpath": "//input[@placeholder='Password']"
+          }
+        ]
+      },
+WITH UNDER HERE
+        {
+          "eventType": "TWO_POINT_GESTURE",
+          "coordinates": "(35%,35%)->(10%,15%),(35%,35%)->(60%,55%)"
+        },
+        {
+            "eventType": "ENTER_TEXT",
+            "replacementText": "River123!",
+            "elementDescriptors": [
+              {
+                "xpath": "//input[@placeholder='Password']"
+              }
+            ]
+        },
+STOP

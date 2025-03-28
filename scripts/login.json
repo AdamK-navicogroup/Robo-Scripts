@@ -1,0 +1,58 @@
+[
+    {
+        "id": 2901,
+        "description": "Login Script",
+        "contextDescriptor": {
+          "condition": "element_present",
+          "visionText": "Welcome"
+        },
+        "actions": [
+          {
+              "eventType" : "DELAYED_MESSAGE_POSTED",
+              "delayTime" : 10000
+          },
+          {
+              "eventType": "VIEW_CLICKED",
+              "visionText": "Continue with Email"
+          },
+          {
+              "eventType" : "DELAYED_MESSAGE_POSTED",
+              "delayTime" : 3000
+          },
+          {
+              "eventType": "VIEW_TEXT_CHANGED",
+              "replacementText": "europaqa22+tb275core@gmail.com",
+              "elementDescriptors": [
+                {
+                  "xpath": "//input[@placeholder='Email Address']"
+                }
+              ]
+          },
+          {
+              "eventType" : "DELAYED_MESSAGE_POSTED",
+              "delayTime" : 2000
+          },
+          {
+              "eventType": "VIEW_CLICKED",
+              "visionText": "Next"
+          },
+          {
+              "eventType" : "DELAYED_MESSAGE_POSTED",
+              "delayTime" : 8000
+          },
+          {
+              "eventType": "ENTER_TEXT",
+              "replacementText": "River123!",
+              "elementDescriptors": [
+                {
+                  "xpath": "//input[@placeholder='Password']"
+                }
+              ]
+          },        
+          {
+              "eventType" : "DELAYED_MESSAGE_POSTED",
+              "delayTime" : 5000
+          }
+        ]
+      }
+]
